@@ -197,7 +197,7 @@ int getUserInput(char *input, char directoryPath[])
 {
   char buf[255];
   char *s = buf;
-  printf("[3150 Shell:%s]=> ", directoryPath);
+  printf("[Bash Shell:%s]=> ", directoryPath);
   if (fgets(buf, 255, stdin) == NULL)
   {
     putchar('\n');
